@@ -1,0 +1,1170 @@
+@charset "UTF-8";
+
+/*Fonts*/
+
+@font-face 
+{
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face 
+{
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.eot');
+    src: url('../fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+         url('../fonts/montserrat-regular-webfont.ttf') format('truetype'),
+         url('../fonts/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Global Styles*/
+
+p, td
+{
+    font-family: 'open_sansregular', Arial, sans-serif;
+    margin-bottom: 0.3rem;
+}
+
+
+h1, h2, h3, h4, h5, h6, a, th
+{
+    font-family: 'montserratregular', "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+h2
+{
+    font-size: 2em;
+}
+
+.textShadow1
+{
+     text-shadow: 1px 0px 5px rgba(0, 0, 0, 1);
+}
+
+a
+{
+    color: white;
+}
+
+a:hover
+{
+    color: white;
+}
+
+a:focus
+{
+    color: white;
+}
+
+.greenH
+{
+    color: #267262;
+}
+
+.blueH
+{
+    color: #1574ca;
+}
+
+.yellowH
+{
+    color: #ffae00;
+}
+
+/*Header*/
+
+header
+{
+    background: url('../images/header-bg.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#logo
+{
+    min-width: 90px;
+}
+
+#bookCallNav
+{
+    text-align: right;
+    margin-top: 10px;
+}
+
+#bookCallNav p
+{
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+#bookCallNav p:nth-child(4)
+{
+    margin-bottom: 25px;
+}
+
+.donateBtnSmall
+{
+    background-color: rgba(255,174,0,.75);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    padding: 5px;
+    display: inline-block;
+}
+
+.tourBtnSmall
+{
+    background-color: rgba(201,21,28,.75);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    padding: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navUnderline
+{
+    text-decoration: underline;
+}
+
+.title-bar
+{
+    margin-bottom: 10px;
+    padding-right: 0rem;
+}
+
+.title-bar .menu-icon 
+{
+    margin-right: 0rem; 
+}
+
+.menu-icon::after
+{
+    background: white;
+    box-shadow: 0 50px 0 white, 0 25px 0 white; 
+}
+
+.menu-icon:hover::after 
+{
+    background: white;
+    box-shadow: 0 50px 0 white, 0 25px 0 white; 
+}
+
+#mainNav
+{
+    margin: 0;
+    text-align: center;
+}
+
+#mainNav ul
+{
+    list-style-type: none;
+}
+
+#mainNav li a
+{
+    font-size: 1.2em;
+    display: block;
+    color: white;
+    padding: 5px 0 5px 0;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    font-family: 'montserratregular', "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+#headline
+{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#headline h2
+{
+
+}
+
+#headline h3
+{
+    padding-top: 0px;
+    font-size: 3.6em;
+}
+
+#headline h4
+{
+    font-size: 1.6em;
+    margin-bottom: 50px;
+}
+
+.tourBtnBig
+{
+    background-color: rgba(201,21,28,.75);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 2.4em;
+    padding: 10px;
+}
+
+.tourBtnBig:hover
+{
+    color: white;
+    cursor: pointer;
+}
+
+/*Video*/
+
+.videoSec
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.video
+{
+    width: 100% !important;
+    height: auto !important;
+    background-color: black;
+}
+
+/*Index*/
+
+.mhsSec
+{
+    margin-top: 50px;
+}
+
+.mhsSec div:nth-child(2)
+{
+    text-align: center;
+}
+
+.mhsSec a
+{
+    color: black;
+}
+
+.mhsSec p
+{
+    margin-bottom: 25px;
+}
+
+.tciSec
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tciSec div:first-child
+{
+    text-align: center;
+}
+
+.tciSec img
+{
+    margin-bottom: 25px;
+}
+
+/*About Page*/
+
+.aboutCISec
+{
+    margin-top: 50px;
+}
+
+.aboutCISec img
+{
+    margin-top: 75px;
+}
+
+.lhSec
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lhSec h2
+{
+    text-align: center;
+}
+
+.ciBASec h2
+{
+    margin-top: 25px;
+}
+
+.textOverlay p:nth-child(2)
+{
+    margin-bottom: 25px;
+}
+
+.fdiSec
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fdiSec h2
+{
+    margin-top: 25px;
+}
+
+/*Booking Page*/
+#bookTSec
+{
+    
+    background: url('../images/chantryisland-sunset.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 10px solid white;
+    color: white;
+    text-align: center;
+}
+
+#bookTSec p
+{   
+    font-size: 1em;
+}
+
+#bookTSec h2
+{
+    margin-top: 50px;
+    margin-bottom: 0rem;
+
+}
+
+#bookTSec p:nth-child(4)
+{
+    margin-bottom: 50px;
+}
+
+#cpp
+{
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+#bookTSec p:nth-child(13)
+{
+    margin-bottom: 50px;
+}
+
+#bookTSec p:nth-child(14)
+{
+    font-size: 1.6em;
+}
+
+#bookTSec p:nth-child(14)
+{
+    font-size: 1.4em;
+    margin-bottom: 50px;
+}
+
+.scheduleSec
+{
+    margin-bottom: 50px;
+}
+
+.scheduleSec h2
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#datesth
+{
+    font-size: 1.8em;
+}
+
+.scheduleSec table th:nth-child(2)
+{
+    font-size: 1.8em;
+    text-align: left;
+}
+
+.tbhSec
+{
+    text-align: center;
+}
+
+.tbhSec p:nth-child(3)
+{
+    margin-bottom: 25px;
+}
+
+.tiSec
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tiSec img
+{
+    margin-top: 25px;
+}
+
+.tiSec p:nth-child(4)
+{
+    margin-bottom: 25px;
+}
+
+/*Gallery*/
+
+.galImgCon
+{
+    margin-bottom: 50px;
+}
+
+.galImgCon h5
+{
+    margin-top: 10px;
+}
+
+.gallery img
+{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.gallery img:hover
+{
+    cursor: pointer;
+}
+
+
+.pgiSec
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.pgiSec a
+{
+    color: black;
+}
+
+.gallery
+{
+    text-align: center;
+}
+
+/*News & Events*/
+
+.newseventsSec 
+{
+    margin-top: 50px;
+    margin-bottom: 50px;   
+    text-align: center;
+}
+
+.eventsSec
+{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.eventsSec a
+{
+    color: black;
+    font-family: 'open_sansregular', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.eventsSec div
+{
+    margin-bottom: 50px;
+}
+
+.eventsSec div p:nth-child(5)
+{
+    font-style: italic;
+}
+
+.eventsNL
+{
+    margin-top: 25px;
+}
+
+.eventsNL a:first-child
+{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.eventsNL a:nth-child(2)
+{
+    margin-right: 10px;
+}
+
+
+.newsSec
+{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.newsSec a
+{
+    color: black;
+    font-family: 'open_sansregular', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.newsSec div
+{
+    margin-bottom: 50px;
+}
+
+.newsSec div p:nth-child(5)
+{
+    font-style: italic;
+}
+
+.newsSec img
+{
+    margin-bottom: 25px;
+}
+
+.newsNL
+{
+    margin-top: 25px;
+}
+
+.newsNL a:first-child
+{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.newsNL a:nth-child(2)
+{
+    margin-right: 10px;
+}
+
+.volunteers
+{
+    text-align: center;
+}
+
+.volunteers div:nth-child(3n+1)
+{
+    margin-bottom: 25px;
+}
+
+.volunteers div:last-child
+{
+    margin-bottom: 50px;
+}
+
+/*Donations*/
+
+#donationsCon
+{
+    background: url('../images/birdsbg.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.donations
+{
+    text-align: center;
+}
+
+.donations h2
+{
+    margin-top: 50px
+}
+
+.donations p:nth-child(2)
+{
+    margin-bottom: 25px;
+}
+
+.donations a
+{
+    font-size: 2em;
+}
+
+.donations p:nth-child(7)
+{
+    margin-bottom: 25px;
+}
+
+.donations p:nth-child(8)
+{
+    font-weight: 600;
+}
+
+.donations p:nth-child(9)
+{
+    margin-bottom: 25px;
+}
+
+.donations p:nth-child(10)
+{
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+.donations img
+{
+    width: 15%;
+}
+
+.donorCatSec
+{
+    margin-bottom: 50px;
+}
+
+.donorCatSec h2
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.levelsth
+{
+    font-size: 1.8em;
+}
+
+.donorCatSec table th:nth-child(2)
+{
+    font-size: 1.8em;
+    text-align: left;
+}
+
+/*Contact Page*/
+
+.contactTopSec
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contactTopSec a
+{
+    color: black;
+}
+
+.contactTopSec p:nth-child(3)
+{
+    margin-bottom: 25px;
+}
+
+.contactTopSec p:nth-child(8)
+{
+    margin-bottom: 25px;
+}
+
+.contactTopSec p:nth-child(10)
+{
+    margin-bottom: 50px;
+}
+
+/*Map*/
+
+#mapRel
+{
+    position: relative;
+}
+
+.map-wrapper, .preload-wrapper 
+{ 
+    width: 100%;  
+    height: 350px; 
+}
+
+#mapRel button 
+{ 
+    cursor: pointer; 
+    margin-left: 4px;
+    background-color: rgba(201,21,28,.75);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    padding: 5px; 
+}
+
+.geocode 
+{ 
+    position: absolute; 
+    top: 100px; 
+    left: 7px;
+}
+
+.address 
+{ 
+    width: 200px; 
+    position: absolute; 
+    top: 50px; 
+    left: 7px;
+    margin-left: 4px;
+}
+
+.preload-wrapper 
+{ 
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 2px solid #ccc;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1em;
+    color: #CCC;
+
+    font-family: 'montserratregular', Arial, sans-serif;
+
+    pointer-events: none;
+    transition: opacity 0.7s ease;
+}
+
+.hide-preloader 
+{ 
+    opacity: 0; 
+}
+
+.preload-wrapper i 
+{ 
+    margin: 100px 0 20px; 
+    font-size: 2.2em; 
+}
+
+.preload-wrapper span 
+{
+    display: block; 
+}
+
+#infoTitle
+{
+    font-size: 20px;
+    font-family: 'montserratregular', Arial, sans-serif;
+    color: #1574ca;
+    font-weight: 300;
+    margin: 0 auto;
+}
+
+
+/*Form*/
+
+#form
+{
+    font-family: 'open_sansregular', Arial, sans-serif;
+    text-align: center;
+}
+
+label
+{
+    font-family: 'montserratregular', "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 1.25em;
+}
+
+input
+{
+    width: 60px;
+}
+
+#name, #email, #phone, #msg, #send
+{
+    display: block;
+    margin: 0 auto;
+}
+
+#name
+{
+    margin-bottom: 25px;
+    width: 250px;
+}
+
+
+#email
+{
+    margin-bottom: 25px;
+    width: 250px;
+}
+
+#phone
+{
+    margin-bottom: 25px;
+    width: 250px;
+}
+
+#msg
+{
+    margin-bottom: 25px;
+    width: 650px;
+    height: 250px;
+}
+
+#send
+{
+    margin-bottom: 50px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    transition: all .3s ease-in-out;
+    border-style: ridge;
+    font-size: 1.25em;
+    font-family: 'open_sansregular', Arial, sans-serif;
+}
+
+#send:hover
+{
+    cursor: pointer;
+    color: white;
+    background-color: #1574ca;
+}
+
+/*Footer*/
+
+.footer
+{
+    background-color: rgba(21,116,202,1);
+    color: white;
+    text-align: center;
+}
+
+.footer p
+{
+     font-family: 'montserratregular', "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+.footerBtns
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.socIcons
+{
+    margin-top: 25px;
+}
+
+#fbSVG
+{
+    display: inline-block;
+    max-height: 50px;
+    width: 60px;
+}
+
+#ytSVG
+{
+    display: inline-block;
+    max-width: 100px;
+}
+
+.footerLinks
+{
+    margin-top: 25px;
+}
+
+.footerLinks h5
+{
+    margin-top: 25px;
+}
+
+.footerLinks ul
+{
+    list-style-type: none;
+}
+
+#keySVG
+{
+    width: 25px;
+}
+
+.copySec
+{
+    text-align: center;
+}
+
+.copyright
+{
+    margin-top: 25px;
+}
+
+
+@media only screen and (min-width: 30em) 
+{
+    #headline h3
+    {
+        font-size: 4em;
+    }
+}
+
+/*Medium and up*/
+@media only screen and (min-width: 48.125em) 
+{ 
+
+    /*Global Style*/
+    h2
+    {
+        font-size: 3em;
+    }
+
+    /*Header*/
+
+    #headline h3
+    {
+        font-size: 5em;
+    }
+
+    .donateBtnSmall
+    {
+        font-size: 1em;
+        padding: 8px;
+    }
+
+    .tourBtnSmall
+    {
+        font-size: 1em;
+        padding: 8px;
+    }
+
+    #bookCallNav p
+    {
+        font-size: 1.2em;
+    }
+
+    /*About Page*/
+    .ciBASec
+    {
+        position: relative;
+    }
+
+    .ciBASec h2
+    {
+        margin-top: 0px;
+    }
+
+    .textOverlay p:nth-child(2)
+    {
+        margin-bottom: 0px;
+    }
+
+    .textOverlay
+    {
+        padding: 10px;
+        position: absolute;
+        top: 25px;
+    }
+
+    .textOverlay2
+    {
+        padding: 10px;
+        position: absolute;
+        top: 1285px;
+    }
+
+    .textOverlay h2
+    {
+        font-size: 4em;
+        margin-bottom: 100px;
+    }
+
+    .textOverlay2 h2
+    {
+        font-size: 4em;
+        margin-bottom: 100px;
+    }
+
+    .textOverlay p
+    {
+        font-weight: 700;
+        max-width: 45%;
+    }
+
+    .textOverlay2 p
+    {
+        font-weight: 700;
+        max-width: 45%;
+    }
+
+    /*Gallery*/
+    .gallery img
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    /*Booking*/
+    #bookTSec p
+    {
+        font-size: 1.4em;
+    }
+
+    #cpp
+    {
+        font-size: 2em;
+    }
+
+    #bookTSec p:nth-child(14)
+    {
+        font-size: 1.6em;
+    }
+
+    #bookTSec p:nth-child(14)
+    {
+        font-size: 2em;
+    }
+
+    /*Footer*/
+}
+
+/*Large and up*/
+@media screen and (min-width: 64em) /*1024*/
+{
+    /*Header*/
+    #headline h3
+    {
+        font-size: 6.7em;
+    }
+
+    .donateBtnSmall
+    {
+        font-size: 1.4em;
+    }
+
+    .tourBtnSmall
+    {
+        font-size: 1.4em;
+    }
+
+    #bookCallNav p
+    {
+        font-size: 1.2em;
+    }
+    
+
+    #mainNav
+    {
+        padding-top: 1%;
+        padding-bottom: 3%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #mainNav ul
+    {
+        margin-left: 0px;
+    }
+
+
+    #mainNav ul li:last-child
+    {
+        margin-right: 0px;
+    }
+
+    #mainNav ul li
+    {
+        border-bottom: none;
+        margin-left: 20px;
+        display: inline;
+    }
+
+    #mainNav li:first-child 
+    {
+        border-top: none;
+    }
+
+    #mainNav ul li a
+    {
+        display: inline;
+        font-size: 1.6em; 
+    }
+
+    #mainNav ul li a
+    { 
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    .mhsSec h2
+    {
+        font-size: 2.8em;
+    }
+
+    /*About Page*/
+    .textOverlay
+    {
+        padding: 10px;
+        position: absolute;
+        top: 25px;
+    }
+
+    .textOverlay2
+    {
+        padding: 10px;
+        position: absolute;
+        top: 25px;
+    }
+
+    .textOverlay2 p
+    {
+        max-width: 95%;
+    }
+
+    .fdiSec h2
+    {
+        margin-top: 0px;
+    }
+
+    /*Booking Page*/
+    .tiSec img
+    {
+    margin-top: 80px;
+    }
+
+    /*Footer*/
+    #fbSVG
+    {
+        max-height: 80px;
+        width: 100px;
+    }
+
+    #ytSVG
+    {
+        max-width: 180px;
+    }
+
+}
+
+@media screen and (min-width: 75em) /*1200*/
+{
+    #headline h3
+    {
+        font-size: 8em;
+    }
+}
